@@ -35,3 +35,23 @@ const onConnected = socket => {
 };
 
 io.on('connection', onConnected);
+
+// /********SSL */
+
+// app.use('/', (req, res, next) => {
+//   res.json({
+//     message: 'hii '
+//   });
+// });
+
+// const sslServer = https.createServer(
+//   {
+//     key: '',
+//     cert: ''
+//   },
+//   app
+// );
+
+// sslServer.listen(3443, () => {
+//   console.log('Secure ssl server');
+// });
